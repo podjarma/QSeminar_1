@@ -1,11 +1,13 @@
 package ru.sberbank.homework;
 
 public class Task {
-    int id;
-    boolean isDevelop;
-    boolean isTested;
+    public int id;
+    public boolean isDeveloped;
+    public boolean isTested;
 
-    public static void main(String[] args) {
-
+    public Task(int id){
+        this.id = id;
+        this.isDeveloped = false;
+        this.isTested = false;
     }
 }
